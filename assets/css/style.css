@@ -1,10 +1,11 @@
 body{
-  margin-left: 180px;
+  margin-left: 150px;
   margin-top: 50px;
 }
 caption{
   display: none;
 }
+
 table {
   
   text-align: center;
@@ -20,12 +21,14 @@ thead td {
   font-size: inherit;
   font-size: 1.2em;
   font-weight: 600;
-  padding: 30px 10px;
+  padding: 30px 20px;
   color: white;
-  text-align: center;
+  text-align: center ;
   height: 2em;
+  white-space: pre-line;
   
 }
+
 thead>tr td:first-child{
   background-color: #7584a9;
   border-top-left-radius: 10px;
@@ -70,6 +73,7 @@ tfoot td {
 }
 tfoot button {
   padding: 7px 30px;
+ 
 }
 tfoot tr td:nth-child(odd) {
   background-color: #dadada;
